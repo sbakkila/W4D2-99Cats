@@ -1,0 +1,7 @@
+<h1>This is all of your requests, you lonely cat person!</h1>
+<%  @cat_rental_request.each do |rental_req|%>
+  <%= rental_req.start_date %>
+  <%= rental_req.end_date %>
+  <%= rental_req.cat_id %>
+  <br>
+<% end %>
